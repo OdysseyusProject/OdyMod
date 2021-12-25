@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "odyrite_shovel",
+    "customModelName": "Normal",
+    "name": "Pelle d'odyrite",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Odysseyus"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 1.3,
+    "enchantability": 5,
+    "damageVsEntity": 5.5,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Odyriteingot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

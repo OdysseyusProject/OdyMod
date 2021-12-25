@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "odysseyus:blocks/styorite_tnt3",
+    "up": "odysseyus:blocks/styorite_tnt1",
+    "north": "odysseyus:blocks/styroite_tnt2",
+    "east": "odysseyus:blocks/styroite_tnt2",
+    "south": "odysseyus:blocks/styroite_tnt2",
+    "west": "odysseyus:blocks/styroite_tnt2",
+    "particle": "odysseyus:blocks/styorite_tnt3"
+  }
+}

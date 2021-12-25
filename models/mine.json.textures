@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bouton",
+        "marron2": "marron2",
+        "rouge": "rouge"
+      },
+      "name": "default"
+    }
+  }
+}

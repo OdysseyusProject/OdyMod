@@ -1,0 +1,30 @@
+{
+  "osoama_song": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "odysseyus:_gonna",
+        "stream": true
+      }
+    ]
+  },
+  "urss": {
+    "category": "music",
+    "subtitle": "subtitles.urss",
+    "sounds": [
+      {
+        "name": "odysseyus:national-anthem-of-ussr",
+        "stream": true
+      }
+    ]
+  },
+  "all_star": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "odysseyus:smash-mouth-all-star-hq",
+        "stream": true
+      }
+    ]
+  }
+}

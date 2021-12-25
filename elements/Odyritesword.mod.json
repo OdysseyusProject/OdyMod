@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "odyrite_sword2",
+    "customModelName": "Normal",
+    "name": "Odyritesword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Odysseyus"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 20.0,
+    "attackSpeed": 1.5,
+    "enchantability": 6,
+    "damageVsEntity": 10.0,
+    "usageCount": 2501,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Odyriteingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "odysseyus:custom/mine",
+  "textures": {
+    "all": "odysseyus:blocks/mine",
+    "particle": "odysseyus:blocks/mine",
+    "1": "odysseyus:blocks/bouton",
+    "marron2": "odysseyus:blocks/marron2",
+    "rouge": "odysseyus:blocks/rouge"
+  }
+}

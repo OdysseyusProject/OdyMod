@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "shrek",
+    "name": "All Star",
+    "description": "Somebody once told me : Odysseyus c'est bien\"",
+    "creativeTab": {
+      "value": "CUSTOM:Odysseyus"
+    },
+    "music": {
+      "value": "CUSTOM:all_star"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

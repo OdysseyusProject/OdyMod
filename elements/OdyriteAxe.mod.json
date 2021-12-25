@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "odyrite_axe",
+    "customModelName": "Normal",
+    "name": "Odyrite Hache",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Odysseyus"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 20.0,
+    "attackSpeed": 1.3,
+    "enchantability": 20,
+    "damageVsEntity": 11.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Odyriteingot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

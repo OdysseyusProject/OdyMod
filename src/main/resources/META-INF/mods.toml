@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="odysseyus"
+version="2.0.4"
+displayName="Odysseyus Mod"
+credits="Mod fait avec amour et avec TATHAN"
+displayURL="https://odysseyus.fr"
+authors="TATHAN"
+description='''
+Le mod ODYSSEYUS
+'''
+
+[[dependencies.odysseyus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

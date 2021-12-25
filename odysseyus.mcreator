@@ -1,0 +1,738 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "OdyriteArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Odyriteore",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyriteore"
+    },
+    {
+      "name": "Odyriteingot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyriteingot"
+    },
+    {
+      "name": "Odysseyus",
+      "type": "tab",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odysseyus"
+    },
+    {
+      "name": "Osamadisque",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osamadisque"
+    },
+    {
+      "name": "ExplosionEnchantProcedure",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosion_enchant_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StyoritetntExplosion",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styoritetnt_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Styoritetnt",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styoritetnt"
+    },
+    {
+      "name": "Urssanthem",
+      "type": "musicdisc",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "urssanthem"
+    },
+    {
+      "name": "Styoriteore",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styoriteore"
+    },
+    {
+      "name": "Styoriteingoyt",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styoriteingoyt"
+    },
+    {
+      "name": "Styotitefurnace",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styotitefurnace"
+    },
+    {
+      "name": "Styoritesword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styoritesword"
+    },
+    {
+      "name": "Styoriteswordcraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styoriteswordcraft"
+    },
+    {
+      "name": "Odyritesword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyritesword"
+    },
+    {
+      "name": "Odyriteswordcraft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyriteswordcraft"
+    },
+    {
+      "name": "Craftbootody",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftbootody"
+    },
+    {
+      "name": "Leggingcraftody",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leggingcraftody"
+    },
+    {
+      "name": "Plastroncraftodyt",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plastroncraftodyt"
+    },
+    {
+      "name": "Casquecraftody",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "casquecraftody"
+    },
+    {
+      "name": "Hammerprocedure",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammerprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Odyritehammer",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyritehammer"
+    },
+    {
+      "name": "Odyritepickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyritepickaxe"
+    },
+    {
+      "name": "OdyriteHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_hoe"
+    },
+    {
+      "name": "OdyriteAxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_axe"
+    },
+    {
+      "name": "Hoerecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hoerecipe"
+    },
+    {
+      "name": "Pickaxecraft",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pickaxecraft"
+    },
+    {
+      "name": "Axerecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axerecipe"
+    },
+    {
+      "name": "Odyriteshovel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyriteshovel"
+    },
+    {
+      "name": "Shovelcraftody",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shovelcraftody"
+    },
+    {
+      "name": "MineExplosion",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MineRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine_recipe"
+    },
+    {
+      "name": "Mine",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine"
+    },
+    {
+      "name": "AllStar",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "all_star"
+    },
+    {
+      "name": "OdyriteStick",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_stick"
+    },
+    {
+      "name": "CraftStickOdyrite",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_stick_odyrite"
+    },
+    {
+      "name": "CraftOdyriteSword",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_odyrite_sword"
+    },
+    {
+      "name": "OdyriteGolem",
+      "type": "livingentity",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_golem"
+    },
+    {
+      "name": "Odyriteblock",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyriteblock"
+    },
+    {
+      "name": "Golem",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golem"
+    },
+    {
+      "name": "OdyriteGolemBuild",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_golem_build",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OdyritePumpkin",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_pumpkin"
+    },
+    {
+      "name": "OdyritePumpkinCraft",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_pumpkin_craft"
+    },
+    {
+      "name": "OdyriteGolemHearthRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_golem_hearth_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OdyriteGolemHearth",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_golem_hearth"
+    },
+    {
+      "name": "OdyriteGolemChest",
+      "type": "livingentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_golem_chest"
+    },
+    {
+      "name": "OdyriteGolemCoffreHearth",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_golem_coffre_hearth"
+    },
+    {
+      "name": "OdyriteGolemHearthCoffre",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyrite_golem_hearth_coffre",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Odyritegolemcoffrecraft",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odyritegolemcoffrecraft"
+    },
+    {
+      "name": "StyoritetntOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styoritetnt_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "osoama_song",
+      "files": [
+        "_gonna"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "urss",
+      "files": [
+        "national-anthem-of-ussr"
+      ],
+      "category": "music",
+      "subtitle": "la musique de l\u0027urss"
+    },
+    {
+      "name": "all_star",
+      "files": [
+        "smash-mouth-all-star-hq"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.odysseyus.odyrite_golem_spawn_egg": "Odyrite Golem  Spawn Egg",
+      "item.odysseyus.odyrite_axe": "Odyrite Hache",
+      "subtitles.all_star": "",
+      "item.odysseyus.odyrite_armor_chestplate": "Odyrite Armor Body",
+      "block.odysseyus.odyriteblock": "Odyrite block",
+      "entity.odysseyus.odyrite_golem_chest": "Odyrite Golem Coffre",
+      "subtitles.test": "",
+      "block.odysseyus.styoriteore": "Minerai de Styorite",
+      "item.odysseyus.odyrite_golem_coffre_hearth": "Coeur d\u0027Odyrite Golem [Coffre]",
+      "subtitles.osoama_song": "",
+      "item.odysseyus.all_star": "All Star",
+      "item.odysseyus.odyrite_golem_chest_spawn_egg": "Odyrite Golem Coffre Spawn Egg",
+      "block.odysseyus.mine": "Mine",
+      "item.odysseyus.odyrite_armor_leggings": "Odyrite Armor Leggings",
+      "item.odysseyus.osamadisque": "Osamadisque",
+      "item.odysseyus.odyritepickaxe": "Pioche d\u0027odyrite",
+      "item.odysseyus.odyrite_armor_helmet": "Odyrite Armor Helmet",
+      "item.odysseyus.odyriteshovel": "Pelle d\u0027odyrite",
+      "item.odysseyus.urssanthem": "Urss Anthem",
+      "item.odysseyus.all_star.desc": "Somebody once told me : Odysseyus c\u0027est bien\"",
+      "subtitles.urss": "la musique de l\u0027urss",
+      "item.odysseyus.odyrite_armor_boots": "Odyrite Armor Boots",
+      "block.odysseyus.odyriteore": "Minerai d\u0027Odyrite",
+      "item.odysseyus.odyritehammer": "Marteau d\u0027Odyrite",
+      "item.odysseyus.odyriteingot": "lingot d\u0027odyrite",
+      "item.odysseyus.styoritesword": "Epée de Styorite",
+      "item.odysseyus.odyrite_stick": "Bâton d\u0027Odyrite",
+      "entity.odysseyus.odyrite_golem": "Odyrite Golem ",
+      "item.odysseyus.odyrite_golem_hearth": "Coeur d\u0027Odyrite Golem",
+      "item.odysseyus.styoriteingoyt": "lingot de Styorite",
+      "item.odysseyus.odyrite_hoe": "Houe d\u0027odyrite",
+      "item.odysseyus.odyritesword": "Odyritesword",
+      "itemGroup.tabodysseyus": "Odysseyus",
+      "item.odysseyus.osamadisque.desc": "The osama song",
+      "block.odysseyus.styoritetnt": "Styoritetnt",
+      "item.odysseyus.urssanthem.desc": "La musique de l\u0027urss",
+      "block.odysseyus.odyrite_pumpkin": "Odyrite Pumpkin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "DrinkAndCraft",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "odysseyus",
+    "modName": "Odysseyus Mod",
+    "version": "2.0.4",
+    "description": "Le mod ODYSSEYUS",
+    "author": "TATHAN",
+    "websiteURL": "https://odysseyus.fr",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Mod fait avec amour et avec TATHAN",
+    "modElementsPackage": "fr.odysseyus.mod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100351610
+}

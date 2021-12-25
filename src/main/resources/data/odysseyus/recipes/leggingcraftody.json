@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "odysseyus:odyriteingot"
+    },
+    "1": {
+      "item": "odysseyus:odyriteingot"
+    },
+    "2": {
+      "item": "odysseyus:odyriteingot"
+    },
+    "3": {
+      "item": "odysseyus:odyriteingot"
+    },
+    "5": {
+      "item": "odysseyus:odyriteingot"
+    },
+    "6": {
+      "item": "odysseyus:odyriteingot"
+    },
+    "8": {
+      "item": "odysseyus:odyriteingot"
+    }
+  },
+  "result": {
+    "item": "odysseyus:odyrite_armor_leggings",
+    "count": 1
+  }
+}

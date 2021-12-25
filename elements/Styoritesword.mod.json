@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "odyrite_sword",
+    "customModelName": "Normal",
+    "name": "Epée de Styorite",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Odysseyus"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 4.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 100000.0,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

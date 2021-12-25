@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "xmas_texture",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

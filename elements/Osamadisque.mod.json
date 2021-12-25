@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "osama_disc",
+    "name": "Osamadisque",
+    "description": "The osama song",
+    "creativeTab": {
+      "value": "CUSTOM:Odysseyus"
+    },
+    "music": {
+      "value": "CUSTOM:osoama_song"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

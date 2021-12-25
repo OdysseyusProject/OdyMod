@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "odysseyus:blocks/pumpkin_top",
+    "up": "odysseyus:blocks/pumpkin_top",
+    "north": "odysseyus:blocks/carved_pumpkin",
+    "east": "odysseyus:blocks/pumpkin_side",
+    "south": "odysseyus:blocks/pumpkin_side",
+    "west": "odysseyus:blocks/pumpkin_side",
+    "particle": "odysseyus:blocks/pumpkin_top"
+  }
+}

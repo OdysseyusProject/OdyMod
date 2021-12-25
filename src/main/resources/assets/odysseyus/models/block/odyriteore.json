@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "odysseyus:blocks/dysseyus",
+    "up": "odysseyus:blocks/dysseyus",
+    "north": "odysseyus:blocks/dysseyus",
+    "east": "odysseyus:blocks/dysseyus",
+    "south": "odysseyus:blocks/dysseyus",
+    "west": "odysseyus:blocks/dysseyus",
+    "particle": "odysseyus:blocks/dysseyus"
+  }
+}

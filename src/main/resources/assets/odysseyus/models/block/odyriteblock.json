@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "odysseyus:blocks/odyrite_block",
+    "up": "odysseyus:blocks/odyrite_block",
+    "north": "odysseyus:blocks/odyrite_block",
+    "east": "odysseyus:blocks/odyrite_block",
+    "south": "odysseyus:blocks/odyrite_block",
+    "west": "odysseyus:blocks/odyrite_block",
+    "particle": "odysseyus:blocks/odyrite_block"
+  }
+}
