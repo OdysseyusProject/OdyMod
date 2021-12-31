@@ -15,12 +15,12 @@ import fr.odysseyus.mod.itemgroup.MusicDiscTabItemGroup;
 import fr.odysseyus.mod.OdysseyusModElements;
 
 @OdysseyusModElements.ModElement.Tag
-public class AllStarItem extends OdysseyusModElements.ModElement {
-	@ObjectHolder("odysseyus:all_star")
+public class BelupacitoDiscItem extends OdysseyusModElements.ModElement {
+	@ObjectHolder("odysseyus:belupacito_disc")
 	public static final Item block = null;
 
-	public AllStarItem(OdysseyusModElements instance) {
-		super(instance, 15);
+	public BelupacitoDiscItem(OdysseyusModElements instance) {
+		super(instance, 53);
 	}
 
 	@Override
@@ -30,9 +30,9 @@ public class AllStarItem extends OdysseyusModElements.ModElement {
 
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, OdysseyusModElements.sounds.get(new ResourceLocation("odysseyus:all_star")),
+			super(0, OdysseyusModElements.sounds.get(new ResourceLocation("odysseyus:belupacito")),
 					new Item.Properties().group(MusicDiscTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
-			setRegistryName("all_star");
+			setRegistryName("belupacito_disc");
 		}
 
 		@Override

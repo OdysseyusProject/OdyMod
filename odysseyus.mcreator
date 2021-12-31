@@ -645,6 +645,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ody_block_craft"
+    },
+    {
+      "name": "SuperIdolDisc",
+      "type": "musicdisc",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_idol_disc"
+    },
+    {
+      "name": "MusicDiscTab",
+      "type": "tab",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_tab"
+    },
+    {
+      "name": "BelupacitoDisc",
+      "type": "musicdisc",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belupacito_disc"
+    },
+    {
+      "name": "ShubaDisc",
+      "type": "musicdisc",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shuba_disc"
     }
   ],
   "variable_elements": [],
@@ -672,14 +708,40 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "belupacito",
+      "files": [
+        "beluga-belupacito-official-audio"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "superidol",
+      "files": [
+        "super-idol"
+      ],
+      "category": "music",
+      "subtitle": "super idol ????????"
+    },
+    {
+      "name": "shuba",
+      "files": [
+        "shuba-otamatone"
+      ],
+      "category": "record",
+      "subtitle": "Shuba Otomatone"
     }
   ],
   "language_map": {
     "en_us": {
+      "item.odysseyus.belupacito_disc.desc": "BELUPACITO !!!",
       "item.odysseyus.odyrite_golem_spawn_egg": "Odyrite Golem  Spawn Egg",
       "item.odysseyus.odyrite_axe": "Odyrite Hache",
       "subtitles.all_star": "",
       "item.odysseyus.odyrite_armor_chestplate": "Odyrite Armor Body",
+      "item.odysseyus.super_idol_disc": "Super Idol Disc",
       "block.odysseyus.odyriteblock": "Odyrite block",
       "entity.odysseyus.odyrite_golem_chest": "Odyrite Golem Coffre",
       "subtitles.test": "",
@@ -688,6 +750,8 @@
       "subtitles.osoama_song": "",
       "item.odysseyus.all_star": "All Star",
       "item.odysseyus.odyrite_golem_chest_spawn_egg": "Odyrite Golem Coffre Spawn Egg",
+      "subtitles.belupacito": "",
+      "itemGroup.tabmusic_disc_tab": "Music Disc Tab",
       "block.odysseyus.mine": "Mine",
       "item.odysseyus.odyrite_armor_leggings": "Odyrite Armor Leggings",
       "item.odysseyus.osamadisque": "Osamadisque",
@@ -701,8 +765,11 @@
       "block.odysseyus.odyriteore": "Minerai d\u0027Odyrite",
       "item.odysseyus.odyritehammer": "Marteau d\u0027Odyrite",
       "item.odysseyus.odyriteingot": "lingot d\u0027odyrite",
+      "item.odysseyus.super_idol_disc.desc": "super idol ????????",
       "item.odysseyus.styoritesword": "Epée de Styorite",
       "item.odysseyus.odyrite_stick": "Bâton d\u0027Odyrite",
+      "subtitles.superidol": "super idol ????????",
+      "item.odysseyus.shuba_disc": "Shuba Otamatone",
       "entity.odysseyus.odyrite_golem": "Odyrite Golem ",
       "item.odysseyus.odyrite_golem_hearth": "Coeur d\u0027Odyrite Golem",
       "item.odysseyus.styoriteingoyt": "lingot de Styorite",
@@ -710,9 +777,12 @@
       "item.odysseyus.odyritesword": "Odyritesword",
       "itemGroup.tabodysseyus": "Odysseyus",
       "item.odysseyus.osamadisque.desc": "The osama song",
+      "item.odysseyus.belupacito_disc": "Belupacito",
       "block.odysseyus.styoritetnt": "Styoritetnt",
       "item.odysseyus.urssanthem.desc": "La musique de l\u0027urss",
-      "block.odysseyus.odyrite_pumpkin": "Odyrite Pumpkin"
+      "subtitles.shuba": "Shuba Otomatone",
+      "block.odysseyus.odyrite_pumpkin": "Odyrite Pumpkin",
+      "item.odysseyus.shuba_disc.desc": "Shuba Otamatone"
     }
   },
   "foldersRoot": {

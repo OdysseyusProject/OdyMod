@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "musicdisc",
   "definition": {
-    "texture": "shrek",
-    "name": "All Star",
-    "description": "Somebody once told me : Odysseyus c'est bien\"",
+    "texture": "superidol_disc",
+    "name": "Super Idol Disc",
+    "description": "super idol ????????",
     "creativeTab": {
       "value": "CUSTOM:MusicDiscTab"
     },
     "music": {
-      "value": "CUSTOM:all_star"
+      "value": "CUSTOM:superidol"
     },
     "specialInfo": [],
     "hasGlow": true

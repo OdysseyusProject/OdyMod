@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Music Disc Tab",
+    "icon": {
+      "value": "Items.MUSIC_DISC_PIGSTEP"
+    },
+    "showSearch": false
+  }
+}

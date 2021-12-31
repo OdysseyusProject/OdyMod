@@ -26,5 +26,34 @@
         "stream": true
       }
     ]
+  },
+  "belupacito": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "odysseyus:beluga-belupacito-official-audio",
+        "stream": true
+      }
+    ]
+  },
+  "superidol": {
+    "category": "music",
+    "subtitle": "subtitles.superidol",
+    "sounds": [
+      {
+        "name": "odysseyus:super-idol",
+        "stream": true
+      }
+    ]
+  },
+  "shuba": {
+    "category": "record",
+    "subtitle": "subtitles.shuba",
+    "sounds": [
+      {
+        "name": "odysseyus:shuba-otamatone",
+        "stream": true
+      }
+    ]
   }
 }

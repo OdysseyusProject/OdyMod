@@ -2,16 +2,16 @@
   "_fv": 24,
   "_type": "musicdisc",
   "definition": {
-    "texture": "shrek",
-    "name": "All Star",
-    "description": "Somebody once told me : Odysseyus c'est bien\"",
+    "texture": "shuba_disc",
+    "name": "Shuba Otamatone",
+    "description": "Shuba Otamatone",
     "creativeTab": {
       "value": "CUSTOM:MusicDiscTab"
     },
     "music": {
-      "value": "CUSTOM:all_star"
+      "value": "CUSTOM:shuba"
     },
     "specialInfo": [],
-    "hasGlow": true
+    "hasGlow": false
   }
 }

@@ -50,6 +50,10 @@ public class OdysseyusModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "osoama_song")));
 		sounds.put(new ResourceLocation("odysseyus", "urss"), new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "urss")));
 		sounds.put(new ResourceLocation("odysseyus", "all_star"), new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "all_star")));
+		sounds.put(new ResourceLocation("odysseyus", "belupacito"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "belupacito")));
+		sounds.put(new ResourceLocation("odysseyus", "superidol"), new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "superidol")));
+		sounds.put(new ResourceLocation("odysseyus", "shuba"), new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "shuba")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("odysseyus").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

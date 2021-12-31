@@ -6,7 +6,7 @@
     "name": "Urss Anthem",
     "description": "La musique de l'urss",
     "creativeTab": {
-      "value": "CUSTOM:Odysseyus"
+      "value": "CUSTOM:MusicDiscTab"
     },
     "music": {
       "value": "CUSTOM:urss"

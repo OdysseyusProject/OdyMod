@@ -11,7 +11,7 @@ import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 
-import fr.odysseyus.mod.itemgroup.OdysseyusItemGroup;
+import fr.odysseyus.mod.itemgroup.MusicDiscTabItemGroup;
 import fr.odysseyus.mod.OdysseyusModElements;
 
 @OdysseyusModElements.ModElement.Tag
@@ -31,7 +31,7 @@ public class UrssanthemItem extends OdysseyusModElements.ModElement {
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
 			super(0, OdysseyusModElements.sounds.get(new ResourceLocation("odysseyus:urss")),
-					new Item.Properties().group(OdysseyusItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
+					new Item.Properties().group(MusicDiscTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("urssanthem");
 		}
 
