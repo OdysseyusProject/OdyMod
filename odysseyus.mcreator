@@ -636,6 +636,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "OdyBlockCraft",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ody_block_craft"
     }
   ],
   "variable_elements": [],
