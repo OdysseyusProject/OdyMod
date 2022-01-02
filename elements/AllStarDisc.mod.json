@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "shrek",
+    "name": "All Star Disc",
+    "description": "Somebody once tell me...",
+    "creativeTab": {
+      "value": "CUSTOM:MusicDiscTab"
+    },
+    "music": {
+      "value": "CUSTOM:all_star"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

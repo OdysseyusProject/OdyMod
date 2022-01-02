@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "urss_disc",
+    "name": "Urss Anthem Disc",
+    "description": "Communism Song !",
+    "creativeTab": {
+      "value": "CUSTOM:MusicDiscTab"
+    },
+    "music": {
+      "value": "CUSTOM:urss_anthem"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

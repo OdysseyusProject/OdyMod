@@ -3,7 +3,7 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "belupacito_disc",
-    "name": "Belupacito",
+    "name": "Belupacito Disc",
     "description": "BELUPACITO !!!",
     "creativeTab": {
       "value": "CUSTOM:MusicDiscTab"
@@ -12,6 +12,6 @@
       "value": "CUSTOM:belupacito"
     },
     "specialInfo": [],
-    "hasGlow": true
+    "hasGlow": false
   }
 }

@@ -58,7 +58,7 @@ public class OdyriteArmorItem extends OdysseyusModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(OdyriteingotItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -74,7 +74,7 @@ public class OdyriteArmorItem extends OdysseyusModElements.ModElement {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 2f;
+				return 1.5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(OdysseyusItemGroup.tab)) {

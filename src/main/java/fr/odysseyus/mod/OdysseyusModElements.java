@@ -46,14 +46,19 @@ public class OdysseyusModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public OdysseyusModElements() {
-		sounds.put(new ResourceLocation("odysseyus", "osoama_song"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "osoama_song")));
-		sounds.put(new ResourceLocation("odysseyus", "urss"), new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "urss")));
+		sounds.put(new ResourceLocation("odysseyus", "urss_anthem"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "urss_anthem")));
 		sounds.put(new ResourceLocation("odysseyus", "all_star"), new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "all_star")));
+		sounds.put(new ResourceLocation("odysseyus", "dream_speedrun"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "dream_speedrun")));
+		sounds.put(new ResourceLocation("odysseyus", "osama_song"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "osama_song")));
+		sounds.put(new ResourceLocation("odysseyus", "super_idol"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "super_idol")));
 		sounds.put(new ResourceLocation("odysseyus", "belupacito"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "belupacito")));
-		sounds.put(new ResourceLocation("odysseyus", "superidol"), new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "superidol")));
-		sounds.put(new ResourceLocation("odysseyus", "shuba"), new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "shuba")));
+		sounds.put(new ResourceLocation("odysseyus", "shuba_otamatone"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("odysseyus", "shuba_otamatone")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("odysseyus").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

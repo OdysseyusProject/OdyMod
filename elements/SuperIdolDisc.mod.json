@@ -9,9 +9,9 @@
       "value": "CUSTOM:MusicDiscTab"
     },
     "music": {
-      "value": "CUSTOM:superidol"
+      "value": "CUSTOM:super_idol"
     },
     "specialInfo": [],
-    "hasGlow": true
+    "hasGlow": false
   }
 }

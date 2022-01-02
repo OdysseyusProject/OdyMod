@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "osama_disc",
+    "name": "Plane song",
+    "description": "I gonna drive some plane...",
+    "creativeTab": {
+      "value": "CUSTOM:MusicDiscTab"
+    },
+    "music": {
+      "value": "CUSTOM:osama_song"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

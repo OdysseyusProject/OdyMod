@@ -44,15 +44,6 @@
       "registry_name": "odysseyus"
     },
     {
-      "name": "Osamadisque",
-      "type": "musicdisc",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "osamadisque"
-    },
-    {
       "name": "ExplosionEnchantProcedure",
       "type": "procedure",
       "sortid": 19,
@@ -122,15 +113,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "styoritetnt"
-    },
-    {
-      "name": "Urssanthem",
-      "type": "musicdisc",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "urssanthem"
     },
     {
       "name": "Styoriteore",
@@ -393,15 +375,6 @@
       "registry_name": "mine"
     },
     {
-      "name": "AllStar",
-      "type": "musicdisc",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "all_star"
-    },
-    {
       "name": "OdyriteStick",
       "type": "item",
       "sortid": 35,
@@ -647,15 +620,6 @@
       "registry_name": "ody_block_craft"
     },
     {
-      "name": "SuperIdolDisc",
-      "type": "musicdisc",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "super_idol_disc"
-    },
-    {
       "name": "MusicDiscTab",
       "type": "tab",
       "sortid": 52,
@@ -665,48 +629,115 @@
       "registry_name": "music_disc_tab"
     },
     {
-      "name": "BelupacitoDisc",
+      "name": "SuperIdolDisc",
       "type": "musicdisc",
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "belupacito_disc"
+      "registry_name": "super_idol_disc",
+      "path": "~/Music Disc"
     },
     {
-      "name": "ShubaDisc",
+      "name": "AllStarDisc",
       "type": "musicdisc",
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "shuba_disc"
+      "registry_name": "all_star_disc",
+      "path": "~/Music Disc"
+    },
+    {
+      "name": "BelupacitoDisc",
+      "type": "musicdisc",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "belupacito_disc",
+      "path": "~/Music Disc"
+    },
+    {
+      "name": "UrssAnthemDisc",
+      "type": "musicdisc",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "urss_anthem_disc",
+      "path": "~/Music Disc"
+    },
+    {
+      "name": "OsamaDisc",
+      "type": "musicdisc",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osama_disc",
+      "path": "~/Music Disc"
+    },
+    {
+      "name": "ShubaDisc",
+      "type": "musicdisc",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shuba_disc",
+      "path": "~/Music Disc"
+    },
+    {
+      "name": "StyoriteTntRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "styorite_tnt_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "osoama_song",
-      "files": [
-        "_gonna"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "urss",
+      "name": "urss_anthem",
       "files": [
         "national-anthem-of-ussr"
       ],
-      "category": "music",
-      "subtitle": "la musique de l\u0027urss"
+      "category": "record",
+      "subtitle": ""
     },
     {
       "name": "all_star",
       "files": [
         "smash-mouth-all-star-hq"
       ],
-      "category": "music",
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "dream_speedrun",
+      "files": [
+        "trance_music_for_racing_game"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "osama_song",
+      "files": [
+        "video0"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "super_idol",
+      "files": [
+        "super-idol_1"
+      ],
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -714,72 +745,69 @@
       "files": [
         "beluga-belupacito-official-audio"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": ""
     },
     {
-      "name": "superidol",
-      "files": [
-        "super-idol"
-      ],
-      "category": "music",
-      "subtitle": "super idol ????????"
-    },
-    {
-      "name": "shuba",
+      "name": "shuba_otamatone",
       "files": [
         "shuba-otamatone"
       ],
       "category": "record",
-      "subtitle": "Shuba Otomatone"
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.odysseyus.belupacito_disc.desc": "BELUPACITO !!!",
+      "subtitles.urss_anthem": "",
+      "item.odysseyus.urss_anthem_disc": "Urss Anthem Disc",
       "item.odysseyus.odyrite_golem_spawn_egg": "Odyrite Golem  Spawn Egg",
-      "item.odysseyus.odyrite_axe": "Odyrite Hache",
+      "subtitles.osama_song": "",
       "subtitles.all_star": "",
       "item.odysseyus.odyrite_armor_chestplate": "Odyrite Armor Body",
       "item.odysseyus.super_idol_disc": "Super Idol Disc",
-      "block.odysseyus.odyriteblock": "Odyrite block",
       "entity.odysseyus.odyrite_golem_chest": "Odyrite Golem Coffre",
-      "subtitles.test": "",
-      "block.odysseyus.styoriteore": "Minerai de Styorite",
       "item.odysseyus.odyrite_golem_coffre_hearth": "Coeur d\u0027Odyrite Golem [Coffre]",
-      "subtitles.osoama_song": "",
-      "item.odysseyus.all_star": "All Star",
-      "item.odysseyus.odyrite_golem_chest_spawn_egg": "Odyrite Golem Coffre Spawn Egg",
       "subtitles.belupacito": "",
-      "itemGroup.tabmusic_disc_tab": "Music Disc Tab",
+      "item.odysseyus.odyrite_golem_chest_spawn_egg": "Odyrite Golem Coffre Spawn Egg",
+      "subtitles.osoama_song": "",
       "block.odysseyus.mine": "Mine",
-      "item.odysseyus.odyrite_armor_leggings": "Odyrite Armor Leggings",
-      "item.odysseyus.osamadisque": "Osamadisque",
-      "item.odysseyus.odyritepickaxe": "Pioche d\u0027odyrite",
+      "item.odysseyus.all_star_disc.desc": "Somebody once tell me...",
       "item.odysseyus.odyrite_armor_helmet": "Odyrite Armor Helmet",
       "item.odysseyus.odyriteshovel": "Pelle d\u0027odyrite",
-      "item.odysseyus.urssanthem": "Urss Anthem",
-      "item.odysseyus.all_star.desc": "Somebody once told me : Odysseyus c\u0027est bien\"",
-      "subtitles.urss": "la musique de l\u0027urss",
-      "item.odysseyus.odyrite_armor_boots": "Odyrite Armor Boots",
-      "block.odysseyus.odyriteore": "Minerai d\u0027Odyrite",
+      "item.odysseyus.osama_disc": "Plane song",
       "item.odysseyus.odyritehammer": "Marteau d\u0027Odyrite",
-      "item.odysseyus.odyriteingot": "lingot d\u0027odyrite",
-      "item.odysseyus.super_idol_disc.desc": "super idol ????????",
-      "item.odysseyus.styoritesword": "Epée de Styorite",
+      "block.odysseyus.odyriteore": "Minerai d\u0027Odyrite",
       "item.odysseyus.odyrite_stick": "Bâton d\u0027Odyrite",
       "subtitles.superidol": "super idol ????????",
-      "item.odysseyus.shuba_disc": "Shuba Otamatone",
-      "entity.odysseyus.odyrite_golem": "Odyrite Golem ",
+      "item.odysseyus.shuba_disc": "Shuba Otamatone Disc",
+      "subtitles.super_idol": "",
       "item.odysseyus.odyrite_golem_hearth": "Coeur d\u0027Odyrite Golem",
       "item.odysseyus.styoriteingoyt": "lingot de Styorite",
       "item.odysseyus.odyrite_hoe": "Houe d\u0027odyrite",
+      "subtitles.shuba_otamatone": "",
       "item.odysseyus.odyritesword": "Odyritesword",
       "itemGroup.tabodysseyus": "Odysseyus",
-      "item.odysseyus.osamadisque.desc": "The osama song",
-      "item.odysseyus.belupacito_disc": "Belupacito",
       "block.odysseyus.styoritetnt": "Styoritetnt",
-      "item.odysseyus.urssanthem.desc": "La musique de l\u0027urss",
+      "item.odysseyus.urss_anthem_disc.desc": "Communism Song !",
+      "item.odysseyus.osama_disc.desc": "I gonna drive some plane...",
+      "item.odysseyus.belupacito_disc.desc": "BELUPACITO !!!",
+      "item.odysseyus.odyrite_axe": "Odyrite Hache",
+      "subtitles.dream_speedrun": "",
+      "block.odysseyus.odyriteblock": "Odyrite block",
+      "subtitles.test": "",
+      "block.odysseyus.styoriteore": "Minerai de Styorite",
+      "itemGroup.tabmusic_disc_tab": "Music Disc Tab",
+      "item.odysseyus.odyrite_armor_leggings": "Odyrite Armor Leggings",
+      "item.odysseyus.odyritepickaxe": "Pioche d\u0027odyrite",
+      "subtitles.urss": "la musique de l\u0027urss",
+      "item.odysseyus.odyrite_armor_boots": "Odyrite Armor Boots",
+      "item.odysseyus.odyriteingot": "lingot d\u0027odyrite",
+      "item.odysseyus.super_idol_disc.desc": "super idol ????????",
+      "item.odysseyus.styoritesword": "Epée de Styorite",
+      "entity.odysseyus.odyrite_golem": "Odyrite Golem ",
+      "item.odysseyus.belupacito_disc": "Belupacito Disc",
+      "item.odysseyus.all_star_disc": "All Star Disc",
       "subtitles.shuba": "Shuba Otomatone",
       "block.odysseyus.odyrite_pumpkin": "Odyrite Pumpkin",
       "item.odysseyus.shuba_disc.desc": "Shuba Otamatone"
@@ -790,6 +818,10 @@
     "children": [
       {
         "name": "DrinkAndCraft",
+        "children": []
+      },
+      {
+        "name": "Music Disc",
         "children": []
       }
     ]

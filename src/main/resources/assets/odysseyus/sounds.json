@@ -1,16 +1,6 @@
 {
-  "osoama_song": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "odysseyus:_gonna",
-        "stream": true
-      }
-    ]
-  },
-  "urss": {
-    "category": "music",
-    "subtitle": "subtitles.urss",
+  "urss_anthem": {
+    "category": "record",
     "sounds": [
       {
         "name": "odysseyus:national-anthem-of-ussr",
@@ -19,7 +9,7 @@
     ]
   },
   "all_star": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "odysseyus:smash-mouth-all-star-hq",
@@ -27,8 +17,35 @@
       }
     ]
   },
+  "dream_speedrun": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "odysseyus:trance_music_for_racing_game",
+        "stream": true
+      }
+    ]
+  },
+  "osama_song": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "odysseyus:video0",
+        "stream": true
+      }
+    ]
+  },
+  "super_idol": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "odysseyus:super-idol_1",
+        "stream": true
+      }
+    ]
+  },
   "belupacito": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "odysseyus:beluga-belupacito-official-audio",
@@ -36,19 +53,8 @@
       }
     ]
   },
-  "superidol": {
-    "category": "music",
-    "subtitle": "subtitles.superidol",
-    "sounds": [
-      {
-        "name": "odysseyus:super-idol",
-        "stream": true
-      }
-    ]
-  },
-  "shuba": {
+  "shuba_otamatone": {
     "category": "record",
-    "subtitle": "subtitles.shuba",
     "sounds": [
       {
         "name": "odysseyus:shuba-otamatone",

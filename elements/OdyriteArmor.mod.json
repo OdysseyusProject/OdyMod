@@ -49,10 +49,14 @@
     "damageValueBoots": 2,
     "enchantability": 20,
     "toughness": 3.0,
-    "knockbackResistance": 2.0,
+    "knockbackResistance": 1.5,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Odyriteingot"
+      }
+    ]
   }
 }

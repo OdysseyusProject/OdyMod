@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:tnt"
+  },
+  "addition": {
+    "item": "odysseyus:styoriteingoyt"
+  },
+  "result": {
+    "item": "odysseyus:styoritetnt"
+  }
+}

@@ -3,13 +3,13 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "shuba_disc",
-    "name": "Shuba Otamatone",
+    "name": "Shuba Otamatone Disc",
     "description": "Shuba Otamatone",
     "creativeTab": {
       "value": "CUSTOM:MusicDiscTab"
     },
     "music": {
-      "value": "CUSTOM:shuba"
+      "value": "CUSTOM:shuba_otamatone"
     },
     "specialInfo": [],
     "hasGlow": false

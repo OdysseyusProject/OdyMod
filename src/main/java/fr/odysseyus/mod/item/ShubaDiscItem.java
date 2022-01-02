@@ -17,7 +17,7 @@ public class ShubaDiscItem extends OdysseyusModElements.ModElement {
 	public static final Item block = null;
 
 	public ShubaDiscItem(OdysseyusModElements instance) {
-		super(instance, 54);
+		super(instance, 58);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class ShubaDiscItem extends OdysseyusModElements.ModElement {
 
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, OdysseyusModElements.sounds.get(new ResourceLocation("odysseyus:shuba")),
+			super(0, OdysseyusModElements.sounds.get(new ResourceLocation("odysseyus:shuba_otamatone")),
 					new Item.Properties().group(MusicDiscTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("shuba_disc");
 		}
