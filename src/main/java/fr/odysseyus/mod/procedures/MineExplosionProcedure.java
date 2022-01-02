@@ -39,7 +39,7 @@ public class MineExplosionProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 		if (world instanceof World && !((World) world).isRemote) {
-			((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 6, Explosion.Mode.DESTROY);
+			((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 3, Explosion.Mode.DESTROY);
 		}
 	}
 }
